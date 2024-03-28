@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset=" UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio App</title>
+    <script
+      src="https://kit.fontawesome.com/293a2c370f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link rel=" stylesheet" href="./Style/style.css" />
+    <link rel="stylesheet" href="./Style/style.css" id="theme-link" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <div class="logo-image">
+            <img src="./images/logo.png" class="logo" />
+          </div>
+          <ul class="nav-links">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#contact-sec">Contact</a></li>
+          </ul>
+          <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </div>
+        </nav>
+        <div class="header-wrap">
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>
+                Hi, I'm <span>Rabia Nadeem</span><br />
+                from Pakistan
+            </h1>
+            </div>
+            <div class="header-img">
+                <img src="./images/background.png" alt="banner" />
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!-- Theme Option  -->
+    <div class="toggle-container">
+      <label class="switch">
+        <input type="checkbox" id="theme-toggle" />
+        <span class="slider round"></span>
+      </label>
+      <p>Dark Mode</p>
+    </div>
+    <!-- about -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./images/about.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="about-para">
+                I have a strong background in web development, having worked as a front-end developer for last two years.
+                 My skills include HTML, CSS, JavaScript, ReactJS, NodeJS.
+                 I am also familiar with popular frameworks such as Bootstrap.
+                 I show ability to evaluate risks and opportunities and make the best decisions to achieve the company's goals.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>JavaScript</span><br />Developing wep/App Interface
+                </li>
+                <li>
+                  <span>Python</span><br />Building dynamic websites and web applications
+                </li>
+                <li>
+                  <span>Django</span><br />Program applications for clients using the Django framework 
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2019-2020</span><br /> Freelancer/Website Developer
+                </li>
+                <li>
+                  <span>2021-2022</span><br />Designing wep/App Front End
+                </li>
+                <li>
+                  <span>2023-2024</span><br />Designing wep/App Front End
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2013-2015</span><br />Beacon House School(Marticulation)</li>
+                <li><span>2015-2017</span><br />Punjab Group of Colleges(ICS)</li>
+                <li><span>2017-2021</span><br />University of Central Punjab(BS Computer Science)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- services -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div class="service-list-wrap">
+            <i class="fa-solid fa-code"></i>
+            <h2>UI/ UX Development </h2>
+            <p>
+                Expert UI/UX development service tailored to your needs.
+                 From intuitive designs to seamless user experiences,
+                 we craft interfaces that captivate and engage your audience. 
+                Elevate your digital presence with our innovative solutions.
+            </p>
+            <a href="#"> Learn more </a>
+          </div>
+          <div class="service-list-wrap">
+            <i class="fa-solid fa-crop"></i>
+            <h2>Responsive Web Design</h2>
+            <p>
+                Unlock the power of responsiveness with our web design service.
+                 We ensure your website looks stunning and functions flawlessly across all devices, 
+                 from desktops to smartphones. With fluid layouts and adaptive elements, 
+                we guarantee an optimal user experience for every visitor.
+            </p>
+            <a href="#"> Learn more </a>
+          </div>
+          <div class="service-list-wrap">
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>UI Integration</h2>
+            <p>
+                Streamline your digital ecosystem with our UI integration service.
+                 Seamlessly merge diverse interfaces and platforms into a unified, cohesive experience. 
+                Our expertise ensures smooth integration, enhancing efficiency and user satisfaction across your entire system.
+            </p>
+            <a href="#">Learn more </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------ Portfolio --------------->
+    <div id="Portfolio">
+      <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="./images/work-1.png" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                Introducing my innovative social media app, designed to connect people globally.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/work-2.png" />
+            <div class="layer">
+              <h3>Empower Her-website</h3>
+              <p>
+              Final Year project created for providing Education to needy womens in rural areas.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/work-3.png" />
+            <div class="layer">
+              <h3>Wasab  Restaurant-Website</h3>
+              <p>
+              It's a restaurant-based Website in which i made different modules and functions.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <button class="see-more-btn">See More</button>
+      </div>
+    </div>
+
+    <!-- Contact Section  -->
+    <section class="contact-sec" id="contact-sec">
+      <div class="container">
+        <div class="contact-wrap">
+          <div class="conatct-data">
+            <h2>Contact Me</h2>
+            <div class="contact-links">
+              <div class="contact-link-route">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>rabianadeem843@gmail.com</span>
+              </div>
+              <div class="contact-link-route">
+                <i class="fa fa-phone-square" aria-hidden="true"></i>
+                <span>+923072299000</span>
+              </div>
+            </div>
+            <div class="social-links">
+              <i class="fa fa-facebook-square" aria-hidden="true"></i>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <i class="fa fa-twitter-square" aria-hidden="true"></i>
+              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </div>
+            <button>Download CV</button>
+          </div>
+          <div class="contact-form">
+            <form action="#" method="post">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="8"
+                  required
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Submit" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      // Theme
+      document.addEventListener("DOMContentLoaded", function () {
+        const themeToggle = document.querySelector("#theme-toggle");
+        const themeLink = document.querySelector("#theme-link");
+
+        themeToggle.addEventListener("change", function () {
+          if (this.checked) {
+            document.body.classList.add("light-mode");
+          } else {
+            document.body.classList.remove("light-mode");
+          }
+        });
+      });
+
+      // Navbar
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+
+        menuToggle.addEventListener("click", function () {
+          navLinks.classList.toggle("active");
+        });
+      });
+      // Tabs
+      var tablinks = document.querySelectorAll(".tab-links");
+      var tabcontents = document.querySelectorAll(".tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+
+        document.getElementById(tabname).classList.add("active-tab");
+        event.currentTarget.classList.add("active-link");
+      }
+    </script>
+  </body>
+</html>
